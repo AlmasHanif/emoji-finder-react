@@ -1,8 +1,36 @@
-.App {
+body{
+  background-color: aquamarine;
+}
+.main {
   text-align: center;
 }
 
-.App-logo {
+.search{
+  margin-top: 10;
+}
+.search > input {
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+  border-color: grey;
+}
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.emojis{
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgb(66, 225, 225);
+  border-radius: 20px;
+  align-items: center;
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +63,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
