@@ -21,9 +21,11 @@ body{
   margin-top: 20px;
 }
 .emojis{
-  width: 150px;
-  height: 50px;
+  /* width: 150px; */
+  /* height: 50px; */
   margin: 10px;
+  text-align: center;
+  padding: 20px;
   background-color: rgb(66, 225, 225);
   border-radius: 20px;
   align-items: center;
