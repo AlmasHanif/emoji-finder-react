@@ -10,14 +10,14 @@ function List(props) {
         }
 
         else {
-            return el.text.toLowerCase().includes(props.input)
+            return el.name.toLowerCase().includes(props.input)
         }
     })
     return (
         <div className='container'>
             <div className='row mt-5 d-flex align-item-center justify-content-center'>
                 {filteredData.map((item) => (
-                    <div className='col-lg-3 col-md-4 col-sm-2 col-xs-6 emojis' key={item.id}>{item.name}</div>
+                    <div className='col-lg-3 col-md-4 col-sm-2 col-xs-6 emojis' key={item.name}>{item.name}</div>
                 ))}
             </div>
         </div>
